@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render correctly 1`] = `
+<theme-provider>
+  <router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <div
+      className="App-root-1"
+    >
+      <router-switch>
+        <public-route
+          component="auth"
+          exact={true}
+          path="/login"
+        />
+        <public-route
+          component="share-view"
+          exact={true}
+          path="/songs/:id"
+        />
+        <router-redirect
+          exact={true}
+          from="/"
+          to="/albums"
+        />
+        <private-route
+          component="my-songs"
+          exact={true}
+          path="/mysongs"
+        />
+        <private-route
+          component="albums"
+          exact={true}
+          path="/albums"
+        />
+        <private-route
+          component="artists"
+          exact={true}
+          path="/artists"
+        />
+        <private-route
+          component="about"
+          path="/about"
+        />
+        <private-route
+          component="album-table"
+          path="/albums/:id"
+        />
+        <private-route
+          component="artist-table"
+          path="/artists/:id"
+        />
+        <private-route
+          component="not-found"
+        />
+      </router-switch>
+    </div>
+  </router>
+</theme-provider>
+`;
