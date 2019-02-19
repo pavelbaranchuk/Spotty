@@ -4,4 +4,4 @@
 
 Link: https://spotty-react.firebaseapp.com/albums
 
-![mockup](https://content.screencast.com/users/pablo_picaso/folders/Jing/media/518eace8-b59b-41ab-bde0-99e7a89d9e49/00000105.png)
+![mockup](https://content.screencast.com/users/pablo_picaso/folders/Jing/media/c0c5f9e3-2f24-43a1-af22-3a96a837c4e7/00000107.png)
