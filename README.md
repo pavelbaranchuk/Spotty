@@ -1,4 +1,4 @@
-# spotty-react
+# Spotty
 
 Simple music streaming service
 
